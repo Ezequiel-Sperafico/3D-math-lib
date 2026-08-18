@@ -35,6 +35,10 @@ export class Vector<V extends TVecAll> {
   private innerVector: V;
   private length: 2 | 3 | 4;
 
+  static from<S extends TVecAll>(initiator: S): Vector<S> {
+    return new Vector(initiator);
+  }
+
   constructor(initiator: V) {
     this.innerVector = initiator;
     this.length = initiator.length;
