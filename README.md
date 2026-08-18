@@ -8,9 +8,9 @@
 
 ### Obs: project use pnpm, but you can use by one of your choice (npm, yarn, ...).
 
-`  git clone https://github.com/Ezequiel-Sperafico/3D-math-lib.git
-  pnpm install
-  pnpm build`
+`git clone https://github.com/Ezequiel-Sperafico/3D-math-lib.git`
+`pnpm install`
+`pnpm build`
 
 ### This will clone and build the typescript into a js build; you can either embed the `src` folder into a typescript project or use the `build` folder generated with `pnpm build` for vanilla javascript projects.
 
