@@ -18,7 +18,7 @@ This will clone and build the typescript into a js build; you can either embed t
 
 ### **Vector** module
 
-The `Vector` class represents a vector with 2, 3 and 4 dimensions.
+The `Vector` class represents a vector with 2, 3 or 4 dimensions.
 
 #### Creating a vector
 
@@ -119,7 +119,9 @@ console.log(vec3.toArr());
 Multiply one Vector by a scalar (i. e. number), storing, and replacing, the result in the caller object.
 
 ```typescript
-const vec3 = Vector.from([6, 17, 3]).multiply(3);
+const vec3 = Vector.from([6, 17, 3]);
+
+vec3.multiplyAssign(3);
 
 console.log(vec3.toArr());
 
@@ -143,7 +145,9 @@ console.log(vec3.toArr());
 Divide one Vector by a scalar (i. e. number), storing, and replacing, the result in the caller object.
 
 ```typescript
-const vec3 = Vector.from([6, 17, 3]).divide(3);
+const vec3 = Vector.from([6, 17, 3]);
+
+vec3.divideAssign(3);
 
 console.log(vec3.toArr());
 
@@ -188,4 +192,4 @@ console.log(result);
 // Log: 334
 ```
 
-##Coming next: Matrices...
+## Coming next: Matrices...
