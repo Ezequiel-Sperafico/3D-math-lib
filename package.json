@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "test": "pnpm tsc -p tsconfig.dev.json ; node ./build_dev/test/test_runner.test.js",
+    "build": "pnpm tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0"
+  }
+}
