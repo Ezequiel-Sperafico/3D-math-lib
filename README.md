@@ -1,7 +1,5 @@
 # 3D-MATH-LIB
 
-#### by -> Ezequiel Sperafico
-
 #### An easy to use, object oriented 3D and 2D math lib.
 
 ## Install
