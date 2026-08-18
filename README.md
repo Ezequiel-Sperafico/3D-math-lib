@@ -4,7 +4,7 @@
 
 ## Install
 
-Obs: project use pnpm, but you can use by one of your choice (npm, yarn, ...).
+Obs: project use pnpm, but you can use any package manager (npm, yarn, ...).
 
 ```bash
 git clone https://github.com/Ezequiel-Sperafico/3D-math-lib.git
